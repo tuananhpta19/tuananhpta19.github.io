@@ -1,0 +1,18 @@
+.text{
+	color: #C8FE2E
+}
+.text:hover{
+	color: red
+}
+.number{
+	color: #F5BCA9
+}
+.number:hover{
+	color: red
+}
+.container{
+	border-color: #FFBF00
+}
+.container:hover .boder{
+	border-color: black 
+}
