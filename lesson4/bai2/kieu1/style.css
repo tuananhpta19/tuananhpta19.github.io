@@ -1,0 +1,43 @@
+.container{
+	width: 50%;
+	background-color: #2EFE64;
+	height: 40px;
+	list-style-position:outside;
+	
+}
+
+.li-parent{
+	float: left;
+	list-style: none;
+	margin:10px;
+	border-right: 1px solid black;
+	padding-right: 20px;
+	position: relative;
+	list-style-position:outside;
+}
+span:hover {
+	color: white
+}
+#start{
+	margin-left: 0px !important
+}
+#end{
+	border-right: 0;
+}
+.ul-child{
+	display: none;
+	background-color: #2EFE64;
+	border-right: 0!important;
+	position: absolute; 
+	list-style: none;
+	list-style-position:outside;
+}
+
+.li-parent:hover .ul-child{
+	display: block;
+	width: 130px;
+	margin-top:12px;
+	position: absolute;
+	background-color: #04B404;
+
+}

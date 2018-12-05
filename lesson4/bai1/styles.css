@@ -1,0 +1,261 @@
+.bg{
+	background-image: url(../img/bg.jpg);
+	width: 100%;
+	height:1000px;
+	position: relative;
+	background-attachment: scroll;
+}
+.header{
+	position: absolute;
+	width: 65%;
+	height: 75px;
+}
+.header-left{
+	float: left;
+	font-size: 30px;	
+	width: 50%;
+	padding: 20px 0;
+	padding-left: 10px;
+}
+.header-right{
+	text-align: center;	
+	font-size: 25px;
+	width: 50%;
+	float: right;
+	padding: 20px 0;
+}
+#header-right-3{
+	margin: 20px;
+	background-color: #6E6E6E; 
+	border: 1px solid #6E6E6E;
+	border-radius: 5px
+}
+
+			/*content*/
+.content{
+	padding-top: 100px;
+	width: 65%;
+}
+.content-left{
+	width: 15%;
+	margin-left: 20px;
+	float: left;
+}
+.content-left-text:hover{
+	color: blue
+}
+.content-center{
+	width: 80%;
+	float: left;
+}
+		
+.anh{
+	width: 200px;
+}
+.anh-text{
+	height: 40px;
+	background-color: white;
+	padding-top: 5px;
+	padding-left: 2px;
+	font-size: 20px
+}
+
+.anh-img-text{
+	position: absolute;
+	bottom: 0px;
+	width: 200px;
+	height: 40px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+			/*dong 1*/
+.anh1-1-img{
+	background-image: url(../img/ip.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+.anh1-1-text-child{
+	display: none;
+}
+.anh:hover .anh1-1-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+/*anh2*/
+.anh1-2-img{
+	background-image: url(../img/travel.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+.anh1-2-text-child{
+	display: none;
+}
+.anh:hover .anh1-2-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+/*anh3*/
+.anh1-3-img{
+	background-image: url(../img/photo.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+.anh1-3-text-child{
+	display: none;
+}
+.anh:hover .anh1-3-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+			/*dong2*/
+.anh2-1-img{
+	background-image: url(../img/finance.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+.anh2-1-text-child{
+	display: none;
+}
+.anh:hover .anh2-1-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+/*anh2*/
+.anh2-2-img{
+	background-image: url(../img/movie.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+.anh2-2-text-child{
+	display: none;
+}
+.anh:hover .anh2-2-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+/*anh2-3*/
+
+.anh2-3-img{
+	background-image: url(../img/cooking.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+.anh2-3-text-child{
+	display: none;
+}
+.anh:hover .anh2-3-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+			/*dong 3*/
+.anh3-1-img{
+	background-image: url(../img/fashion.jpg);
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover
+}
+
+
+.anh3-1-text-child{
+	display: none;
+}
+.anh:hover .anh3-1-text-child{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 55px;
+	background-color: #BDBDBD;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.footer{
+	clear: both;
+	list-style: none;
+	width: 65%;
+	padding: 20px 0;
+	padding-left: 10px;
+}
+.footer span{
+	margin-left: 25px
+}

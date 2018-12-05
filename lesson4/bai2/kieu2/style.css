@@ -1,0 +1,49 @@
+.container{
+	width: 70%;
+	background-color: #2EFE64;
+	height: 40px;
+}
+.li-parent{
+	float: left;
+	list-style: none;
+	margin:10px;
+	width: 150px;
+}
+#start{
+	margin-left: 0px !important
+}
+.ul-parent{
+	display: none;
+	background-color: #2EFE64;
+	list-style: none;
+}
+
+.li-parent:hover .ul-parent{
+	display: block;
+	width: 100px;
+	background-color: #04B404;
+	margin-top: 12px;
+	text-align: center;
+	padding-left:0px;
+}
+span:hover {
+	color: white
+}
+.ul-child{
+	list-style: none;
+	display: none;
+}
+.ul-child-li{
+	margin-top: 0px;
+}
+.li-child{
+	position: relative;
+	margin-top:0px;
+}
+.li-child:hover .ul-child{
+	display: block;
+	position: absolute;
+	padding-left: 70px;
+	width: 150px;
+	background-color: #04B404;
+}
