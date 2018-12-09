@@ -108,3 +108,23 @@
 	color: white;
 	font-size: 14px
 }
+#footer{
+	background-color: grey;
+	width: 100%;
+	margin: 2850px auto;
+	height:  200px
+}
+#footer>*{
+	width: 70%;
+	margin: 0 auto;
+	color: white;
+	padding-top: 5px
+}
+li{
+	border-right: 1px solid black;
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 50px
+}
+
