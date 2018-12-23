@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.dong{
+			width: 600px;
+			text-align: center;
+			clear: both;
+		}
+		.check{
+			width: 7%;
+			float: left;
+			border: 1px solid black;
+			height: 50px;
+		}
+		.check input{
+			margin-top: 18px;
+		}
+		.text{
+			width: 85%;
+			float: left;
+			border: 1px solid black;
+			height: 50px;
+		}
+		.choice{
+			clear:both;
+			margin-top: 100px;
+			padding-left: 20px;
+		}
+		.choice input{
+			float: left;
+	
+			text-decoration: underline;	
+		}
+		.dong:hover .text{
+			background: green;
+		}
+		.dong:hover .check{
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="dong">
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 2 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 3 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked"> 
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 4 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 5 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 6 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 7 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div> 
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+<!-- 8 -->
+	<div class="dong" >
+		<div class="check">
+			<input type="checkbox" name="" value="" class="checked">
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem?</p>
+		</div>
+	</div>
+	<div class="choice">
+		<input type="button" name="" value="Check all" onclick="checkall()">
+		<input type="button" name="" value="UnCheck all" onclick="uncheckall()">
+	</div>
+	<script type="text/javascript">
+		function checkall(){
+ 			var check=document.getElementsByClassName("checked");
+ 			for(var i = 0; i<check.length;i++){
+ 				check[i].checked=true; 
+ 			}
+
+		}
+		function uncheckall(){
+ 			var check=document.getElementsByClassName("checked");
+ 			for(var i = 0; i<check.length;i++){
+ 				check[i].checked=false; 
+ 			}
+
+		}
+	</script>
+</body>
+</html>

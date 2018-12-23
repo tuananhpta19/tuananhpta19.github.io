@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.container{
+	background: #f1cc94;
+	width: 700px;
+	height: 500px;
+
+}
+.tab{
+	float: left;
+	width: 100%;
+	padding-top: 15px;
+}
+.tab button {
+    font-size: 37px;
+    margin-left: 12px;
+}
+.tabcontent{
+	padding-left: 15px;
+	width: 70%;
+}
