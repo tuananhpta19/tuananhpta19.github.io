@@ -1,0 +1,1 @@
+slideshow(".img",1000);

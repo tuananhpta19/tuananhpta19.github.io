@@ -1,0 +1,13 @@
+.slider{
+	margin: 0 auto;
+	width: 700px;
+}
+.img{
+	width: 500px;
+	height: 500px;
+	display: none;
+	position: relative;
+}
+.active{
+	display: block;
+}

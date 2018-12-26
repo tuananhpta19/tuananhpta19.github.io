@@ -1,0 +1,24 @@
+#container .tab{
+	float: left;
+	padding: 10px;
+	margin:2px;
+	background: #ccc;
+}
+#container{
+	position: relative;
+}
+#container .content{
+	position: absolute;
+	z-index: 0;
+	top: 50px;
+	left:0px;
+	width: 50%;
+	height: 100px;
+	background: #ccc
+}
+#container .active .tab{
+	background: orange
+}
+#container .active .content{
+	z-index: 1;
+}

@@ -1,0 +1,45 @@
+#container{
+	background-image: url(".././img/1.jpg");
+	height: 500px;
+	width:80%;
+	margin: auto;
+	position: relative;
+}
+
+.table{
+	position: absolute;
+	top:5%;
+	left: 10%;
+	width: 80%;
+	font-size: 30px;
+	font-weight: 700px;
+	border: 1px solid black;
+	border-radius: 20px
+}
+.size30{
+	width: 30%
+}
+.size35{
+	width: 35%
+}
+.size30{
+	width: 30%
+}
+.input{
+	align-items: center;
+}
+.input input{
+	width: 80%;
+	height: 30px
+}
+.table tr td{
+	padding: 10px;
+}
+.btn input{
+	margin-left: 220px;
+	height: 30px
+}
+.check{
+	font-size: 19px !important;
+	color: red
+}
