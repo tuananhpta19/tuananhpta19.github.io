@@ -1,27 +1,7 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="slider">
-		<img src=".././img/1.jpg" class="img active">
-		<img src=".././img/2.jpg" class="img">
-		<img src=".././img/3.jpg" class="img">
-		<img src=".././img/4.jpg" class="img">
-		<img src=".././img/5.jpg" class="img"> 
-  <button class="prev(+1)" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="prev(-1)" onclick="plusDivs(1)">&#10095;</button>
-	</div>
-	<script type="text/javascript" src="1.js"></script>
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>document</title>
 <style>
 .container{
 	width:700px;
@@ -29,22 +9,31 @@
 	margin: 0 auto;
 }
 .right{
-	text-align: right;
-
+	position: absolute;
+	right:350px;
+	top:250px;
+	height: 30px
 }
-.mySlides {
+.left{
+	position: absolute;
+	left:350px;
+	top:250px;
+	height: 30px
+}
+.slides {
 	display:none;
 	height: 500px;
+	position: relative;
 }
 </style>
 <body>
 
 
 <div class="container">
-  <img class="mySlides" src=".././img/1.jpg" style="width:100%">
-  <img class="mySlides" src=".././img/2.jpg" style="width:100%">
-  <img class="mySlides" src=".././img/3.jpg" style="width:100%">
-  <img class="mySlides" src=".././img/4.jpg" style="width:100%">
+  <img class="slides" src=".././img/1.jpg" style="width:100%">
+  <img class="slides" src=".././img/2.jpg" style="width:100%">
+  <img class="slides" src=".././img/3.jpg" style="width:100%">
+  <img class="slides" src=".././img/4.jpg" style="width:100%">
 
   <button class="left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="right" onclick="plusDivs(1)">&#10095;</button>
@@ -60,7 +49,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("slides");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
