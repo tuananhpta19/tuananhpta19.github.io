@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0
+}
+#container img{
+	width: 500px;
+	height: 200px;
+}
+#container{
+	position: relative;
+}
+#container img{
+	position: absolute;
+	z-index: 0
+}

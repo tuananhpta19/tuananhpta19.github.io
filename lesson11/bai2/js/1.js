@@ -1,0 +1,32 @@
+$(function(){
+	$(".plus1").click(function(){
+		$(".content1").show(500);
+		$(this).css("display","none");
+		$(this).siblings().css("display","block");
+	});
+	$(".minus1").click(function(){
+		$(".content1").hide(500);
+		$(this).css("display","none");
+		$(this).siblings().css("display","block");
+	});
+	$(".plus2").click(function(){
+		$(".content2").show(500);
+		$(this).css("display","none");
+		$(this).siblings().css("display","block");
+	});
+	$(".minus2").click(function(){
+		$(".content2").hide(500);
+		$(this).css("display","none");
+		$(this).siblings().css("display","block");
+	});
+	$(".plus3").click(function(){
+		$(".content3").show(500);
+		$(this).css("display","none");
+		$(this).siblings().css("display","block");
+	});
+	$(".minus3").click(function(){
+		$(".content3").hide(500);
+		$(this).css("display","none");
+		$(this).siblings().css("display","block");
+	});
+});

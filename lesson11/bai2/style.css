@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.container{
+	width:70%;
+	margin: 0 auto;
+}
+.float{
+	float:left;
+}
+.size90{
+	width: 90%
+}
+.size5{
+	width:5%;
+}
+.header{
+	height: 50px;
+	background-color: #808080b8;
+	line-height: 50px;
+	border-bottom: 2px ridge
+}
+.title{
+	font-size: 20px;
+	color:#161414;
+	padding-left: 20px
+}
+.mark{
+	font-size: 22px !important;
+	padding-left: 25px;
+	position: relative;
+}
+.plus1{
+	position: absolute;
+	top:15px;
+}
+.minus1{
+	position: absolute;
+	top:15px;
+	display: none;
+}
+.plus1:hover{
+	opacity: 0.5
+}
+.minus1:hover{
+	opacity: 0.5
+}
+.content1{
+	clear: both;
+	width:90%;
+	margin: 0 auto;
+	display: none;
+}
+.content2{
+	clear: both;
+	width:90%;
+	margin: 0 auto;
+	display: none;
+}
+.plus2{
+	position: absolute;
+	top:15px;
+}
+.minus2{
+	position: absolute;
+	top:15px;
+	display: none;
+}
+.plus2:hover{
+	opacity: 0.5
+}
+.minus2:hover{
+	opacity: 0.5
+}
+.content3{
+	clear: both;
+	width:90%;
+	margin: 0 auto;
+	display: none;
+}
+.plus3{
+	position: absolute;
+	top:15px;
+}
+.minus3{
+	position: absolute;
+	top:15px;
+	display: none;
+}
+.plus3:hover{
+	opacity: 0.5
+}
+.minus3:hover{
+	opacity: 0.5
+}
