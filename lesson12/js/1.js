@@ -139,7 +139,6 @@ $(function(){
 			var active= $(".active");
 			active.attr("class", "tablinks");
 			active.attr("class", "tablinks active");
-			alert("1");
 		}else if(dem==2||dem == 3){
 			var now= $(".display");
 			now.attr("class","content");
@@ -147,7 +146,6 @@ $(function(){
 			var active= $(".active");
 			active.attr("class", "tablinks");
 			active.prev().attr("class", "tablinks active");
-			alert("2");
 		}if(dem==4){
 			var now= $(".display");
 			now.attr("class","content");
@@ -155,7 +153,6 @@ $(function(){
 			var active= $(".active");
 			active.attr("class", "tablinks");
 			active.prev().prev().attr("class", "tablinks active");
-			alert("4");
 		}
 	});
 });
