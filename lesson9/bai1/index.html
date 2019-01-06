@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style type="text/css">
-	*{
-		margin: 0;
-		padding: 0
-	}
-	.choice{
-		width: 200px;
-		height: 100px;
-		border: 1px solid black;
-	}
-	.choice >*{
-		margin-left: 20px;
-		margin-top: 20px
-	}
-	</style>
+<meta charset="utf-8">
+<title>Tiêu đề</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(function(){
+    $('p').hover(function(){
+        $(this).css('color','red');
+    },function(){
+        $(this).css('color','black');
+});
+});
+</script>
 </head>
+
 <body>
-	<div class="choice">
-		<h4>Cỡ chữ</h4>
-		<input type="button" name="" value="Mặc định" onclick="default0()">
-		<input type="button" name="" value="Lớn" onclick="big()">
-		<input type="button" name="" value="Nhỏ" onclick="small()">
-	</div>
-	<p style="font-size: 12px" id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit amet corrupti, sunt ipsa ipsum laudantium rerum! Nemo, obcaecati, adipisci.</p>
-	<script type="text/javascript">
-		function  big(){
-			var txt= document.getElementById("text");
-			var big = parseFloat(txt.style.fontSize);
-			txt.style.fontSize = (big+big*0.4) +"px";
-		}
-		function  small(){
-			var txt= document.getElementById("text");
-			var small = parseFloat(txt.style.fontSize);
-			txt.style.fontSize = (small-small*0.4) +"px";
-		}
-		function default0() {
-			document.getElementById("text").style.fontSize= "12px";
-		}
-	</script>
+<p>Thành phần p</p>
 </body>
 </html>

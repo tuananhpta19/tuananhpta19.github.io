@@ -1,0 +1,72 @@
+.container{
+	width:800px;
+}
+.txt{
+    color: red;
+    margin-left: 5px;
+}
+.display{
+    display: block !important
+}
+.tablinks span{
+	font-size: 20px
+}
+li.tablinks {
+    background: #80808059;
+    width:75px;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+    padding: 0px 32px;
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 34px;
+}
+.tablinks:first-child{
+	padding:0px 20px !important; 
+}
+
+.active{
+	background: #4184be!important
+}
+
+.submit{
+	position: relative;
+	width: 750px;
+    background: #80808059;
+    height: 450px;
+  	top: 80px;
+    left: 63px;
+}
+.content {
+    padding-top: 20px;
+    padding-left: 24px;
+    position: absolute;
+    display: none;
+}
+.navigation {
+    background: #80808059;	
+    width: 42px;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+   	padding-left: 30px;
+    padding-right: 25px;
+    list-style: none;
+    margin-left:10px;
+    margin-top: 90px;
+    float:right;
+    margin-bottom: 30px
+}
+.navigation:nth-child(2) {
+  padding-right: 33px ;
+  padding-left: 25px
+}
+.next{
+	background:  #4184be!important
+}
+
+.next:hover{
+    box-shadow:  0 0 8px 1px black;
+}

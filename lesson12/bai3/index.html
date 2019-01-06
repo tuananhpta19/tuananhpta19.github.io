@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+	<div class="container">
+		<ul>
+			<li class="tablinks active"><span>1.</span> Account</li>
+			<li class="tablinks"><span>2.</span> Profile</li>
+			<li class="tablinks"><span>3.</span> Warning</li>
+			<li class="tablinks"><span>4.</span> Finish</li>
+		</ul>
+		<div class="submit">
+			<div class="content display">
+				<p>User Name *</p>
+				<input type="text" name="" value="" class="userName"><span class="txt userNameerr"></span>
+				<p>Password *</p>
+				<input type="password" name="" value="" class="password"><span class="txt passwordeerr"></span>
+				<p>Confirm password *</p>
+				<input type="password" name="" value="" class="confirmPassword"><span class="txt confirmPasswordeerr"></span>
+				<p>(*) Mandatory</p>
+			</div>
+			<!-- profile -->
+			<div class="content">
+				<p>First Name *</p>
+				<input type="text" name="" value="" class="fName"><span class="firstNameerr txt"></span>
+				<p>Last Name *</p>
+				<input type="text" name="" value="" class="lName"><span class="lastNameerr txt"></span>
+				<p>Email *</p>
+				<input type="email" name="" value="" class="email"><span class="  emaileerr txt"></span>
+				<p>Address *</p>
+				<input type="text" name="" value="" class="address"><span class="addresseerr txt"></span>
+				<p>Age (The warning step will show up if age is less than 18) *</p>	
+				<input type="text" name="" value="" class="age"><span class="ageerr txt"></span>
+				<p>(*) Mandatory</p>
+			</div>
+			<!-- -warning- -->
+			<div class="content">
+				<h3>you are too young</h3>
+				<hr width="600px" align="center">
+				<p>Please go away :v</p>
+			</div>
+			<!-- --finish-- -->
+			<div class="content">
+				<h3>Terms and Conditions</h3>
+				<hr width="600px" align="center">
+				<p><input type="checkbox" name="">I agree with the Terms and Conditions.</p>
+			</div>
+		</div>
+		<ul >
+			<li class="navigation next">Next</li>
+			<li class="navigation previous">Previous</li>
+		</ul>		
+	</div>
+	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+	<!-- <script type="text/javascript" src="js/1.js"></script> -->
+	<script type="text/javascript" src="../js/1.js"></script>
+</body>
+</html>
