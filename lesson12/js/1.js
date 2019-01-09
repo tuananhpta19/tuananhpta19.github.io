@@ -128,31 +128,53 @@ $(function(){
 		
 	}
 	function finish(){
-		
+		if($(".checkcheck").is(":checked")){
+			alert('Success');
+		}
 	}
 	// --previous--
 	$(".previous").on("click", function(){
-		if(dem==1){
-		 	var now= $(".display");
-			now.attr("class","content");
-			now.attr("class","content display");
-			var active= $(".active");
-			active.attr("class", "tablinks");
-			active.attr("class", "tablinks active");
-		}else if(dem==2||dem == 3){
+		switch(dem) {
+			case 1:
+				break;
+			case 2:
+				prevProfile();
+				break;
+			case 3:
+				prevWarning();
+				break;
+			case 4:
+				prevFinish();
+				break;
+		}
+	});
+	function prevProfile(){
 			var now= $(".display");
 			now.attr("class","content");
 			now.prev().attr("class","content display");
 			var active= $(".active");
 			active.attr("class", "tablinks");
 			active.prev().attr("class", "tablinks active");
-		}if(dem==4){
+			dem--;
+			var prev = $(".previous");
+			prev.css("background"," #80808059");
+	}	
+	function prevWarning(){
+		var now= $(".display");
+			now.attr("class","content");
+			now.prev().attr("class","content display");
+			var active= $(".active");
+			active.attr("class", "tablinks");
+			active.prev().attr("class", "tablinks active");
+			dem--;
+	}
+	function prevFinish(){
 			var now= $(".display");
 			now.attr("class","content");
 			now.prev().prev().attr("class","content display");
 			var active= $(".active");
 			active.attr("class", "tablinks");
 			active.prev().prev().attr("class", "tablinks active");
-		}
-	});
+			dem=2;
+	}
 });
