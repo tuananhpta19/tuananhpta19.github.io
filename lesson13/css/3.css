@@ -7,7 +7,7 @@
 	font-family: latoLight;
 }
 .rg { 
-  background: url('../img/8.jpg') no-repeat center center fixed; 
+  background: url('../img/8.jpg') no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

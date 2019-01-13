@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	src:url("font/Lato-Light.ttf");
+}
+*{
+	font-family: latoLight;
+}
+.header{
+	background-color:transparent !important;
+	border-bottom: 1px solid grey;
+}
+.logo {
+	padding-top: 6px;
+}
+.logo span {
+	color: #FF0000;
+}
+.menu{
+	margin-right:0 auto;
+}
+.menu li {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+/*start txt*/
+.txt{
+	text-align: center;
+	padding: 30px 0;
+}
+.txtContent{
+	margin: 0 auto
+}
+/*notification*/
+.table-noti{
+	width: 150px;
+    height: 190px;
+    
+}
+.noti-header{
+	background-color: #FF0000 !important;
+	color: white;
+	border-bottom: 5px solid black !important;
+	text-align: center;
+}
+.notification{
+	margin-bottom: 20px
+}
+/*content*/
+.content *{
+	margin-bottom: 30px	
+}
+.contentImg{
+	background-position: center;
+	width: 100%
+}
+/*comment*/
+.commentInput{
+	width: 100%;
+	height: 35px;
+}
+.recent-comment{
+	margin:30px 0;
+}
+.recent-comment h5{
+	padding-bottom: 15px
+}
+.recent-comment img{
+	padding-bottom: 50px
+}
+.categories{
+	margin: 30px 0
+}
+.categories h5{
+	padding-bottom: 15px
+}
+.categoriesBtn{
+	width: 100%;
+	background-color: 	#808080b5 !important;
+	margin-bottom: 10px
+}
+.archieve{
+	margin: 30px 0;
+}
+.archieve-content{
+	border-bottom: 1px solid #80808036;
+	padding:10px 0;
+}
+
+.gallery li{
+	list-style: none;
+	display: inline-block;
+}
+
+/*contact*/
+.contact{
+	background-color: #292929;
+	color: white;
+	padding-top: 20px
+}
+.contact h4{
+	padding:30px 0;
+}
+.line{
+	margin-bottom: 30px
+}
+.line p{
+	border-bottom: 1px solid white;
+	padding-bottom: 20px
+}
+.iconFooter{
+	float: left;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background: black;
+    margin-right: 10px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 30px	
+}
+/*footer*/
+.footer{
+	background-color: black;
+	color: white;
+	padding-top:20px;
+	font-size: 14px
+}
+.footer li{
+	list-style: none;
+	display: inline;
+	padding-right: 15px 
+}
+.footer li:nth-child(5){
+	padding-right: 0 !important
+}
+
+.cate{
+	position:relative;
+}
+.cate>p{
+	position:absolute;
+	top:0;
+}

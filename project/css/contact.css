@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	src:url("font/Lato-Light.ttf");
+}
+*{
+	font-family: latoLight;
+}
+.header{
+	background-color:transparent !important;
+	border-bottom: 1px solid grey;
+}
+.logo {
+	padding-top: 6px;
+}
+.logo span {
+	color: #FF0000;
+}
+.menu{
+	margin-right:0 auto;
+}
+.menu li {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+/*start txt*/
+.txt{
+	text-align: center;
+	padding: 30px 0;
+}
+.txtContent{
+	margin: 0 auto
+}
+/*submit*/
+.submit{
+	margin: 30px 0;
+}
+.submit input{
+	width: 100%
+}

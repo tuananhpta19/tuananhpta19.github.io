@@ -51,6 +51,10 @@ $(function(){
 		if(number4>0){
 			number4=number4-1;
 			$(".number4").val(number4);
+			if (number4==0) {
+				$('.number4').val("");
+				$(".tru4").hide();
+			}
 		}else{
 			$('.number4').removeAttr('value');
 		}

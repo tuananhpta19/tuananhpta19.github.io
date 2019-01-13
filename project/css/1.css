@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	src:url("font/Lato-Light.ttf");
+}
+*{
+	font-family: latoLight;
+}
+.header{
+	background-color:transparent !important;
+}
+.logo {
+	padding-top: 6px;
+}
+.logo span {
+	color: #FF0000;
+}
+.menu{
+	margin-right:0 auto;
+}
+.menu li {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+/* start banner*/
+/*end banner*/
+/*start txt*/
+.txt{
+	text-align: center;
+	margin: 30px 0
+}
+.txtContent{
+/*	width: 50%;*/
+	display: inline-block;
+}
+/*end txt*/
+/* start icon*/
+.icon{
+	width: 64px;
+    height: 60px;
+    background-color: #FF0000;
+    border-radius: 100%;
+    padding-top: 9px;
+    padding-left: 17px;
+    font-size: 30px;
+    color: white;
+}
+.iconContent p {
+    margin:30px auto;
+}
+.iconContent h5 {
+    text-align: center;
+}
+/*img*/
+.img img{
+	margin-right: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	margin-top:30px;
+}
+/*iconHorizontal*/
+.iconHorizontal{
+	margin:30px 0;
+}
+/*support*/
+.support{
+	background-color: #FF0000;
+	margin: 30px 0
+}
+.supportContent{
+	background-color:transparent !important;
+	color: white;
+	text-align: center;
+}
+/*aboutUs*/
+.aboutUs{
+	text-align: center;
+	margin-bottom: 30px
+}
+.aboutUs>h4,.aboutUs>img{
+	padding-bottom: 20px
+}
+/*contact*/
+.contact{
+	background-color: #292929;
+	color: white;
+	padding-top: 20px
+}
+.contact h4{
+	padding:30px 0;
+}
+.line{
+	margin-bottom: 30px
+}
+.line p{
+	border-bottom: 1px solid white;
+	padding-bottom: 20px
+}
+.iconFooter{
+	float: left;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background: black;
+    margin-right: 10px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 30px	
+}
+/*footer*/
+.footer{
+	background-color: black;
+	color: white;
+	padding-top:20px;
+	font-size: 14px
+}
+.footer li{
+	list-style: none;
+	display: inline;
+	padding-right: 15px 
+}
+.footer li:nth-child(5){
+	padding-right: 0 !important
+}

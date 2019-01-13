@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	src:url("font/Lato-Light.ttf");
+}
+*{
+	font-family: latoLight;
+}
+.header{
+	background-color:transparent !important;
+}
+.logo {
+	padding-top: 6px;
+}
+.logo span {
+	color: #FF0000;
+}
+.menu{
+	margin-right:0 auto;
+}
+.menu li {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+/*start txt*/
+.txt{
+	text-align: center;
+	padding: 30px 0;
+}
+.txtContent{
+	margin: 0 auto
+}
+/*start icon*/
+.icon{
+	margin-bottom: 30px
+}
+.awesome{
+	width: 95px;
+    height: 90px;
+    background: #FF0000;
+    border-radius: 100%;
+    padding-top: 17px;
+    padding-left: 27px;
+    font-size: 40px;
+    color: white;
+    margin:30px auto;
+}
+.iconContent  h5 {
+    text-align: center;
+    margin-bottom: 20px
+}
+.icon1{
+	background-color: #00a6ff
+}
+.icon2{
+	background-color: #17fa17
+}
+.icon3{
+	background-color: #0000ffc4
+}
+.icontxt{
+	text-align: center;
+}
+/*info*/
+.info {
+	text-align: center;
+}
+.info *{
+	padding-bottom: 20px
+}
+.info img{
+	border-radius: 100%;
+}
+/*data*/
+.iconHorizontal{
+	margin:30px 0;
+	text-align: center;
+}
+/*contact*/
+.contact{
+	background-color: #292929;
+	color: white;
+	padding-top: 20px
+}
+.contact h4{
+	padding:30px 0;
+}
+.line{
+	margin-bottom: 30px
+}
+.line p{
+	border-bottom: 1px solid white;
+	padding-bottom: 20px
+}
+.iconFooter{
+	float: left;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background: black;
+    margin-right: 10px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 30px	
+}
+/*footer*/
+.footer{
+	background-color: black;
+	color: white;
+	padding-top:20px;
+	font-size: 14px
+}
+.footer li{
+	list-style: none;
+	display: inline;
+	padding-right: 15px 
+}
+.footer li:nth-child(5){
+	padding-right: 0 !important
+}
