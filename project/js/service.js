@@ -1,13 +1,18 @@
 $(function () { 
-  $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
-});  
-
-$( window ).scroll(function() {   
-  // if($( window ).scrollTop() > 10){   scroll down abit and get the action   
-  $(".progress-bar").each(function(){
-    each_bar_width = $(this).attr('aria-valuenow');
-    $(this).width(each_bar_width + '%');
-  });
- //  }  
-
+	$(".home").on('click', function() {
+	   $(this).css("color","#FF0000");
+	});
+	$(".services").on('click', function() {
+	   $(this).css("color","#FF0000");
+	});
+ $(".blog").on('click', function() {
+ 	$(".blog").css("color","#FF0000");
+ });
+ $(".portfolio").on('click', function() {
+ 	$(".portfolio").css("color","#FF0000");
+ });
+ $(".contact").on('click', function() {
+ 	$(".contact").css("color","#FF0000");
+ });
+ console.log("a");	
 });

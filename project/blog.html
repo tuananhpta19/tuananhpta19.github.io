@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 	<div class="container header">
@@ -24,20 +24,20 @@
 				<ul class=" navbar-nav mr-auto"></ul>
 				<span class="navbar-text">
 					<ul class=" navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">HOME </span></a>
+						<li class="active">
+							<a class="nav-link menu-header" href="index.html">HOME </span></a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">SERVICES</a>
+						<li class="active ">
+							<a class="nav-link menu-header" href="service.html">SERVICES</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">BLOG</a>
+						<li class="active">
+							<a class="nav-link menu-header" href="blog.html">BLOG</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">PORTFOLIO</a>
+						<li class="active">
+							<a class="nav-link menu-header" href="portfolio.html">PORTFOLIO</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">CONTACT</a>
+						<li class="active">
+							<a class="nav-link menu-header" href="contact.html">CONTACT</a>
 						</li>
 					</ul>
 				</span>
@@ -47,8 +47,8 @@
 	<!-- end header -->
 	<!-- start text -->
 	<div class=" txt">
-		<h3>Blog</h3>
-		<p class="txtContent col-8 col-xl-7 col-md-10 col-lg-7 col-sm-10">Bars urna accumsan at ultrde cesid posuere masa socis nautoque penat bus maecenas ultrices sed ipsum lorem dolor sit  amet sed ip sum consectetur</p>
+		<h3 class="wow bounceInDown" data-wow-delay="0.1s">Blog</h3>
+		<p class="txtContent col-8 col-xl-7 col-md-10 col-lg-7 col-sm-10 wow bounceInDown" data-wow-delay="0.5s">Bars urna accumsan at ultrde cesid posuere masa socis nautoque penat bus maecenas ultrices sed ipsum lorem dolor sit  amet sed ip sum consectetur</p>
 	</div>
 	<!-- end text -->
 	<div class="container-fluid">
@@ -97,8 +97,18 @@
 							<h5>Consequat bibendum quam liquam viverra</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim necessitatibus modi quisquam dolorum in ratione error perferendis magnam optio. Error explicabo molestias maiores voluptas odit cupiditate excepturi quae. Incidunt, tempore.</p>
 							<button type="button" class="btn btn-danger">Read More 	&raquo;</button>
+							<nav aria-label="Page navigation example" >
+							<ul class="pagination" style="">
+								<li class="page-item"><a class="page-link" href="#">&laquo; Previous</a></li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">Next &raquo;</a></li>
+							</ul>
+						</nav>
 						</div>
 					</div>
+
 				</div>
 				<!-- end content -->
 				<!-- start comment -->
@@ -111,17 +121,17 @@
 							<!-- 1 -->
 							<div class="col-xl-12">
 								<img src="images/blog/avatar3.png ">
-								<span> &emsp;Alex &emsp;<span>Creative</span></span>
+								<span> &emsp;Alex &emsp;<span class="rc-txt">Creative</span></span>
 							</div>
 							<!-- 2 -->
 							<div class="col-xl-12">
 								<img src="images/blog/avatar3.png ">
-								<span> &emsp;Alex &emsp;<span>Creative</span></span>
+								<span> &emsp;Alex &emsp;<span class="rc-txt">Creative</span></span>
 							</div>
 							<!-- 3 -->
 							<div class="col-xl-12">
 								<img src="images/blog/avatar3.png ">
-								<span> &emsp;Alex &emsp;<span>Creative</span></span>
+								<span> &emsp;Alex &emsp;<span class="rc-txt">Creative</span></span>
 							</div>
 						</div>
 					</div>
@@ -130,34 +140,43 @@
 						<h5>CATEGORIES</h5>
 						<!-- 1 -->
 						<div class="row">
-							<div class="col-9 col-md-5 col-lg-9">
-								<button type="button" class="btn btn-light categoriesBtn">Light</button>
+							<div class="col-9 col-md-5 col-lg-6 col-xl-9">
+								<button type="button" class="btn btn-light categoriesBtn">Coumputer</button>
 							</div>
-							<div class="col-3 col-md-3 cate">
-								<i class="fas fa-comment-alt"></i>	
-								<p>10%</p>
+							<div class="col-3 col-md-3 ">
+								<i class="fas fa-comment-alt cate"></i>	
+								<p class="cate-txt">04</p>
 							</div>
 						</div>
 						<!-- 2 -->
 						<div class="row">
-							<div class="col-9 col-md-5 col-lg-9">
-								<button type="button" class="btn btn-light categoriesBtn">Light</button>
+							<div class="col-9 col-md-5 col-lg-6 col-xl-9">
+								<button type="button" class="btn btn-light categoriesBtn">Smart Phone</button>
 							</div>
-							<div class="col-3 col-md-3"></div>
+							<div class="col-3 col-md-3">
+								<i class="fas fa-comment-alt cate"></i>	
+								<p class="cate-txt">06</p>
+							</div>
 						</div>
 						<!-- 3 -->
 						<div class="row">
-							<div class="col-9 col-md-5 col-lg-9">
-								<button type="button" class="btn btn-light categoriesBtn">Light</button>
+							<div class="col-9 col-md-5 col-lg-6 col-xl-9">
+								<button type="button" class="btn btn-light categoriesBtn">GedGets</button>
 							</div>
-							<div class="col-3 col-md-3"></div>
+							<div class="col-3 col-md-3">
+								<i class="fas fa-comment-alt cate"></i>	
+								<p class="cate-txt">10</p>
+							</div>
 						</div>
 						<!-- 4 -->
 						<div class="row">
-							<div class="col-9 col-md-5 col-lg-9">
-								<button type="button" class="btn btn-light categoriesBtn">Light</button>
+							<div class="col-9 col-md-5 col-lg-6 col-xl-9">
+								<button type="button" class="btn btn-light categoriesBtn">Technology</button>
 							</div>
-							<div class="col-3 col-md-3"></div>
+							<div class="col-3 col-md-3">
+								<i class="fas fa-comment-alt cate"></i>	
+								<p class="cate-txt">25</p>
+							</div>
 						</div>
 					</div>
 					<!-- archieve -->
@@ -222,32 +241,30 @@
 					<!-- our gallery -->
 					<div class="our-gallery">
 						<h5>OUR GALLERY</h5>
-						<div class="gallery">
-							<ul>
-								<li>
-									<img src="images/blog/gallery1.png">
-								</li>
-								<!-- 2 -->
-								<li>
-									<img src="images/blog/gallery2.png">
-								</li>
-								<!-- 3 -->
-								<li>
-									<img src="images/blog/gallery3.png">
-								</li>
-								<!-- 4 -->
-								<li>
-									<img src="images/blog/gallery4.png">
-								</li>
-								<!-- 5 -->
-								<li>
-									<img src="images/blog/gallery5.png">
-								</li>
-								<!-- 6 -->
-								<li>
-									<img src="images/blog/gallery6.png">
-								</li>
-							</ul>
+						<div class="row gallery">
+							<div class="col-4">
+								<img src="images/blog/gallery1.png ">
+							</div>
+							<!-- 2 -->
+							<div class="col-4">
+								<img src="images/blog/gallery2.png">
+							</div>
+							<!-- 3 -->
+							<div class="col-4">
+								<img src="images/blog/gallery3.png">
+							</div>
+							<!-- 4 -->
+							<div class="col-4">
+								<img src="images/blog/gallery4.png">
+							</div>
+							<!-- 5/ -->
+							<div class="col-4">
+								<img src="images/blog/gallery5.png">
+							</div>
+							<!-- 6 -->
+							<div class="col-4">
+								<img src="images/blog/gallery6.png"
+							</div>	
 						</div>
 					</div>
 				</div>
@@ -255,29 +272,29 @@
 		</div>
 	</div>
 	<!-- end content-->
-		<!-- start contact -->
+	<!-- start contact -->
 	<div class="container-fluid contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-4 col-md-4 col-sm-12">
+				<div class="col-xl-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
 					<h4>Multi</h4>
 					<p>In a elit in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est odit accusantium quis officiis modi incidunt consectetur nulla enim blanditiis! Nulla consequuntur voluptate est quas quibusdam asperiores optio? Cumque odit, suscipit delectus tenetur dolorum adipisci.</p>
 					<ul>
-						<li class="iconFooter " ><i class="fa fa-facebook-official "></i></li>
-						<li  class="iconFooter "><i class="fa fa-twitter"></i></li>
-						<li  class="iconFooter "><i class="fa fa-linkedin "></i></li>
-						<li  class="iconFooter "><i class="fa fa-android "></i></li>
-						<li  class="iconFooter"><i class="fa fa-safari "></i></li>
+						<li class="iconFooter " ><i class="fab fa-facebook"></i></li>
+						<li  class="iconFooter "><i class="fab fa-twitter"></i></li>
+						<li  class="iconFooter "><i class="fab fa-linkedin-in"></i></li>
+						<li  class="iconFooter "><i class="fab fa-skype"></i></li>
+						<li  class="iconFooter"><i class="fab fa-google"></i></li>
 					</ul>
 				</div> 
-				<div class="col-xl-4 col-md-4 col-sm-12 line">
+				<div class="col-xl-4 col-md-4 col-sm-12 line wow fadeInUp" data-wow-delay="0.5s">
 					<h4>RECENT POSTS</h4>
 					<p>Awesome Design with Overviews</p>
 					<p>Great Design with Features</p>
 					<p>Limitless functions & Works</p>
 					<p>Multi is simple and clean design</p>
 				</div>
-				<div class="col-xl-4 col-md-4 col-sm-12 line ">
+				<div class="col-xl-4 col-md-4 col-sm-12 line wow fadeInUp" data-wow-delay="1s">
 					<h4>CONTACT INFO</h4>
 					<p><i class="fa fa-home "></i> Office #38, Suite 54 Elizebth Street, Victoria State Newyourk, USA 33026</p>
 					<p><i class="fa fa-phone"></i> +38 000 129900</p>
@@ -306,5 +323,9 @@
 			</div>
 		</div>
 		<!-- end footer -->
-</body>
-</html>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
+	</html>

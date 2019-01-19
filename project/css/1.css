@@ -1,4 +1,4 @@
-*{
+f*{
 	margin: 0;
 	padding:0;
 }
@@ -24,6 +24,9 @@
 	padding-left: 30px;
 	padding-top: 10px;
 }
+/*.menu-header:hover{
+	color: #FF0000 !important
+}*/
 /* start banner*/
 /*end banner*/
 /*start txt*/
@@ -52,6 +55,9 @@
 }
 .iconContent h5 {
     text-align: center;
+}
+.icon-special{
+	padding-left: 14px
 }
 /*img*/
 .img img{

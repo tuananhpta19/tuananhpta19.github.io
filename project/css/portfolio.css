@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	src:url("font/Lato-Light.ttf");
+}
+*{
+	font-family: latoLight;
+}
+.header{
+	background-color:transparent !important;
+	border-bottom: 1px solid grey;
+}
+.logo {
+	padding-top: 6px;
+}
+.logo span {
+	color: #FF0000;
+}
+.menu{
+	margin-right:0 auto;
+}
+.menu li {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.menu-header:hover{
+	color: #FF0000 !important
+}
+/*start txt*/
+.txt{
+	text-align: center;
+	padding: 30px 0;
+}
+.txtContent{
+	margin: 0 auto
+}
+/*tab*/
+/*.tab {
+	margin: 0 auto;
+	
+}
+.tablinks{
+	display: inline-block;
+	text-align: center ;
+	border: 1px solid #8080807d;
+	margin-left: 20px;
+	width: 170px;
+	height: 35px;
+	line-height: 35px;
+}
+.tablinks:hover{
+	background-color: #FF0000;
+	color: white
+}
+.now{
+	background-color: #FF0000;
+}
+.tabcontent {
+	display: none;
+}
+*/
+
+.tab-wrapper ul{
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+	/*    height: 510px !important*/
+
+}
+.tab-wrapper ul li{
+	display: inline;
+	border: 1px solid #8080807d;
+	margin-right: 20px;
+	margin-top: 5px;
+	padding: 10px
+	/*height: 1200px !important*/
+}
+.tab-wrapper ul li.active{
+	background: #FF0000;
+}
+.tab-wrapper ul li.active a{
+	color: white;
+}
+.tab-wrapper ul li a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.tab-content{
+	padding: 20px;
+}
+.tab-item{
+	display: none;
+}

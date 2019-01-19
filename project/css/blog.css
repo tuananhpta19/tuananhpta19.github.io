@@ -25,6 +25,9 @@
 	padding-left: 30px;
 	padding-top: 10px;
 }
+.menu-header:hover{
+	color: #FF0000 !important
+}
 /*start txt*/
 .txt{
 	text-align: center;
@@ -70,6 +73,9 @@
 .recent-comment img{
 	padding-bottom: 50px
 }
+.rc-txt:hover{
+	opacity: 0.4
+}
 .categories{
 	margin: 30px 0
 }
@@ -78,8 +84,24 @@
 }
 .categoriesBtn{
 	width: 100%;
-	background-color: 	#808080b5 !important;
-	margin-bottom: 10px
+	background-color: #80808070 !important;
+	margin-bottom: 10px;
+	color:#000000a8 !important;
+}
+.cate{
+	position:relative;
+	color:#FF0000;
+	font-size: 40px;
+}
+.cate-txt{
+	position:absolute;
+	top:5px;
+	color: white;
+	left: 27px;
+}
+.categoriesBtn:hover{
+	background-color: #FF0000 !important;
+	color: white!important
 }
 .archieve{
 	margin: 30px 0;
@@ -88,12 +110,26 @@
 	border-bottom: 1px solid #80808036;
 	padding:10px 0;
 }
-
-.gallery li{
-	list-style: none;
-	display: inline-block;
+.archieve-content:hover{
+	opacity: 0.4
 }
-
+.tag-cloud button{
+	margin-bottom: 10px;
+	margin-right: 10px
+}
+.tag-cloud button:hover{
+	background-color: #FF0000;
+	color: white
+}
+.gallery{
+	margin-bottom: 30px 0;
+}
+.gallery img{
+	width: 90px;
+	display: inline-block;
+	height: 80px;
+	margin-bottom:15px
+}
 /*contact*/
 .contact{
 	background-color: #292929;
@@ -138,10 +174,3 @@
 	padding-right: 0 !important
 }
 
-.cate{
-	position:relative;
-}
-.cate>p{
-	position:absolute;
-	top:0;
-}
