@@ -16,7 +16,7 @@
 	padding-top: 6px;
 }
 .logo span {
-	color: #FF0000;
+	color: #ea5231;
 }
 .menu{
 	margin-right:0 auto;
@@ -90,7 +90,7 @@
 }
 .cate{
 	position:relative;
-	color:#FF0000;
+	color:#ea5231;
 	font-size: 40px;
 }
 .cate-txt{
@@ -118,7 +118,7 @@
 	margin-right: 10px
 }
 .tag-cloud button:hover{
-	background-color: #FF0000;
+	background-color: #ea5231;
 	color: white
 }
 .gallery{

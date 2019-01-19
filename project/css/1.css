@@ -15,7 +15,7 @@ f*{
 	padding-top: 6px;
 }
 .logo span {
-	color: #FF0000;
+	color: #ea5231;
 }
 .menu{
 	margin-right:0 auto;
@@ -24,11 +24,7 @@ f*{
 	padding-left: 30px;
 	padding-top: 10px;
 }
-/*.menu-header:hover{
-	color: #FF0000 !important
-}*/
-/* start banner*/
-/*end banner*/
+
 /*start txt*/
 .txt{
 	text-align: center;
@@ -43,7 +39,7 @@ f*{
 .icon{
 	width: 64px;
     height: 60px;
-    background-color: #FF0000;
+    background-color: #ea5231;
     border-radius: 100%;
     padding-top: 9px;
     padding-left: 17px;
@@ -72,7 +68,7 @@ f*{
 }
 /*support*/
 .support{
-	background-color: #FF0000;
+	background-color: #ea5231;
 	margin: 30px 0
 }
 .supportContent{

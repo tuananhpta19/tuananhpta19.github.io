@@ -16,7 +16,7 @@
 	padding-top: 6px;
 }
 .logo span {
-	color: #FF0000;
+	color: #ea5231;
 }
 .menu{
 	margin-right:0 auto;
@@ -43,7 +43,7 @@
 .awesome{
 	width: 95px;
     height: 90px;
-    background: #FF0000;
+    background: #ea5231;
     border-radius: 100%;
     padding-top: 17px;
     padding-left: 27px;
@@ -101,7 +101,7 @@
 }
 .cate{
 	position:relative;
-	color:#FF0000;
+	color:#ea5231;
 	font-size: 40px;
 }
 .cate-txt{
