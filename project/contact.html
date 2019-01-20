@@ -77,21 +77,25 @@
 				<form action="">
 					<div class="row">
 						<div class="col-4">
-							<input type="text" name="name" placeholder="name" value="">
+							<input type="text" class="name" name="name" placeholder="name" value="">
+							<p class="color named"></p>
 						</div>
 						<div class="col-4">
-							<input type="email" name="email" placeholder="email" value="">
+							<input type="email" class="email" name="email" placeholder="email" value="">
+							<p class="color emailed"></p>
 						</div>
 						<div class="col-4">
-							<input type="text" name="phone" placeholder="phone" value="">
+							<input type="text" class="phone" name="phone" placeholder="phone" value="">
+							<p class="phoned color"></p>
 						</div>
 						<div class=" col-12 ">
-							<textarea class="note" placeholder="">
+							<input class="note" type="text" value="" placeholder="Mời bạn nhập nội dung" >
 
-							</textarea>
+							</input>
+							<p class="noted color"></p>
 						</div>
 					</div>
-					<button type="button" class="btn btn-danger">Submit message</button>
+					<button type="button" class="btn btn-danger register">Submit message</button>
 				</form>
 			</div>
 		</div>
@@ -152,5 +156,6 @@
 		<script>
 			new WOW().init();
 		</script>
+		<script type="text/javascript" src="js/contact.js"></script>
 	</body>
 	</html>

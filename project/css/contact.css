@@ -56,9 +56,10 @@
 	width: 100%
 }
 .note{
-	margin: 30px 0;
 	height: 200px;
-	width: 100%
+}
+.color{
+	color: red;
 }
 /*contact*/
 .contact{
